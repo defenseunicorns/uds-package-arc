@@ -78,7 +78,7 @@ https://github.com/actions/actions-runner-controller/blob/master/docs/authentica
    # By default it will scale to zero.
    #github_min_runners = 0
    ```
-7. Install the actions-runner-controler Zarf package
+7. **Install the actions-runner-controler Zarf package**
    ```bash
    zarf package deploy oci://ghcr.io/defenseunicorns/packages/actions-runner-controller:0.0.1-amd64
    ```
