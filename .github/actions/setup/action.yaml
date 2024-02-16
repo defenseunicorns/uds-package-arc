@@ -22,8 +22,4 @@ runs:
       run: brew install defenseunicorns/tap/uds@0.8.1
 
     - name: Login to GHCR
-      uses: docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d # v3
-      with:
-        registry: ghcr.io
-        username: dummy
-        password: ${{ inputs.gh_token }}
+      run: uds run registry-login --set REGISTRY=ghcr.io --set REGISTRY_USERNAME=dummy --set REGISTRY_PASSWORD=${{ inputs.gh_token }} --set REGISTRY_RETRY_INTERVAL=90
