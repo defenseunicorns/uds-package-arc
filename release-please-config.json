@@ -10,6 +10,8 @@
         { "type": "chore", "section": "Miscellaneous", "hidden": false }
       ],
       "versioning": "default",
+      "versioning": "prerelease",
+      "prerelease-type": "uds",
       "extra-files": [
         "examples/uds-self-hosted-runner/uds-bundle.yaml",
         "README.md",
