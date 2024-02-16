@@ -22,6 +22,8 @@ jobs:
 
       - name: Setup Runner
         uses: ./.github/actions/setup
+        with:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Test Bundle
         shell: bash
