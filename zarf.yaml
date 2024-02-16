@@ -3,7 +3,7 @@ metadata:
   name: actions-runner-controller
   description: "Deploys actions/actions-runner-controller self hosted GitHub Actions"
   # x-release-please-start-version
-  version: "0.12.0"
+  version: "0.0.1"
   # x-release-please-end
 
 variables:

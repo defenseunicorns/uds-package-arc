@@ -11,6 +11,7 @@
       ],
       "versioning": "default",
       "extra-files": [
+        "examples/uds-self-hosted-runner/uds-bundle.yaml",
         "README.md",
         "tasks/publish.yaml",
         "zarf.yaml"
