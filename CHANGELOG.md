@@ -35,5 +35,3 @@
 
 * Add uds-staging group as CODEOWNERS. ([41afece](https://github.com/defenseunicorns/uds-package-arc/commit/41afece715695c96889bf861096a437d411bd6b1))
 * Remove Terraform directory and files. ([d1a9db5](https://github.com/defenseunicorns/uds-package-arc/commit/d1a9db59baabd1dcaf2cdd10b88eb23cda506e3e))
-
-## Changelog
