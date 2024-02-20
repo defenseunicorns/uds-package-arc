@@ -37,4 +37,6 @@ packages:
 
   - name: actions-runner-controller
     path: ../../
-    ref: 0.1.0
+    # x-release-please-start-version
+    ref: 0.8.2-uds.0
+    # x-release-please-end

@@ -21,12 +21,9 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Setup Runner
-        uses: ./.github/actions/setup-runner
-
-      - name: Install Zarf
-        uses: defenseunicorns/setup-zarf@v1.0.0
+        uses: ./.github/actions/setup
         with:
-          version: v0.32.3
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Test Bundle
         shell: bash
