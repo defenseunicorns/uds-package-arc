@@ -27,18 +27,7 @@ jobs:
 
       - name: Create Test Bundle
         shell: bash
-        run: uds run create-bundle
-
-      # This will currently not deploy without a GitHub app setup.
-      #- name: Deploy Test Bundle
-      #shell: bash
-      #run: uds run deploy-bundle
-      #env:
-      #UDS_CONFIG=./examples/uds-self-hosted-runner/uds-config.yaml
-
-      #- name: Destroy Test Bundle
-      #shell: bash
-      #run: uds run destroy-bundle
+        run: uds run create-bundle --no-progress
 
       - name: Save logs
         if: always()
