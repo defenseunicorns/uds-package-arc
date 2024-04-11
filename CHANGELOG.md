@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.2-uds.2](https://github.com/defenseunicorns/uds-package-arc/compare/v0.8.2-uds.1...v0.8.2-uds.2) (2024-04-11)
+
+
+### Miscellaneous
+
+* Update runner image to v2.315.0. ([#45](https://github.com/defenseunicorns/uds-package-arc/issues/45)) ([0ded411](https://github.com/defenseunicorns/uds-package-arc/commit/0ded4114fffd1eebe398e6af3ee454ff76307d92))
+
 ## [0.8.2-uds.1](https://github.com/defenseunicorns/uds-package-arc/compare/v0.8.2-uds.0...v0.8.2-uds.1) (2024-02-20)
 
 
